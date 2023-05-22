@@ -55,7 +55,7 @@ A API de busca de CEP foi desenvolvida com o objetivo de simplificar a integraç
 
 ## Desenvolvimento concluído.
 
-1) Busca Codigos de Enderecamento-Postal.
+1) Busca dados de Codigos de Enderecamento-Postal.
 2) Adicionado Validation.
 
 ## Esses recursos estão em desenvolvimento:
