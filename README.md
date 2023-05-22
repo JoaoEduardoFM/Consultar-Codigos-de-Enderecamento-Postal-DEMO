@@ -34,15 +34,10 @@ https://viacep.com.br/
 
 ## Desenvolvimento concluído.
 
-1) Cadastra registro.
-2) Edita registro cadastrado.
-3) Busca registro pelo ID.
-4) Efetua saque.
-5) Efetua deposito.
-6) Efetua transferência entre contas.
-7) Adicionado Validation.
+1) Busca Codigos de Enderecamento-Postal.
+2) Adicionado Validation.
 
 ## Esses recursos estão em desenvolvimento:
 
 - Em desenvolvimento ⚠️
-1) Adicionar autenticação JWT.
+- Adicionar validacoes.
