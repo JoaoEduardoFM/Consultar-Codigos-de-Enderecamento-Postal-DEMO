@@ -8,7 +8,7 @@
 https://viacep.com.br/
 
 JSON
-URL: viacep.com.br/ws/01001000/json/
+URL: viacep.com.br/ws/+CEP+/json/
 
     {
       "cep": "01001-000",
