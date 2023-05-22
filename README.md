@@ -7,8 +7,8 @@
 ### É uma aplicação planejada por mim, onde realizo o Integração com o sistema da ViaCep.
 https://viacep.com.br/
 
-JSON
-URL: viacep.com.br/ws/#CEP#/json/
+Retorno exemplo:
+URL: viacep.com.br/ws/Codigo de Enderecamento Postal/json/
 
     {
       "cep": "01001-000",
