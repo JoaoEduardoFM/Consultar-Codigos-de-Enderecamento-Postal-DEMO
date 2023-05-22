@@ -34,11 +34,6 @@ public class buscaCepController {
       notes = "consultar Códigos de Endereçamento Postal (CEP) do Brasil.")
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<?> listaCliente(String cep, @ApiIgnore ResponseRest response) throws Exception{
-		if(!validaSeExisteCep(service.getEndereco(cep).toString()) || service.getEndereco(cep).toString().length() != 8) {
-			response.setMessage("Cep inválido.");
-			response.setType(messageType.ATENCAO);
-			return new ResponseEntity<ResponseRest>(response, HttpStatus.NOT_FOUND);
-		}
 		return ResponseEntity.status(HttpStatus.OK).body(service.getEndereco(cep));
     }
 	
