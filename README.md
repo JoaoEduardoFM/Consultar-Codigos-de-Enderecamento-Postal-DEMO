@@ -8,7 +8,6 @@
 https://viacep.com.br/
 
 Retorno exemplo:
-URL: viacep.com.br/ws/Codigo de Enderecamento Postal/json/
 
     {
       "cep": "01001-000",
