@@ -6,6 +6,23 @@
 
 ### É uma aplicação planejada por mim, onde realizo o Integração com o sistema da ViaCep.
 https://viacep.com.br/
+
+JSON
+URL: viacep.com.br/ws/01001000/json/
+
+    {
+      "cep": "01001-000",
+      "logradouro": "Praça da Sé",
+      "complemento": "lado ímpar",
+      "bairro": "Sé",
+      "localidade": "São Paulo",
+      "uf": "SP",
+      "ibge": "3550308",
+      "gia": "1004",
+      "ddd": "11",
+      "siafi": "7107"
+    }
+     
 ## Alguns campos no modelo principal são:
 
 + logradouro 
