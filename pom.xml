@@ -12,7 +12,7 @@
 	<artifactId>cliente</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cliente</name>
-	<description>Projeto bancario Spring Boot JPA e H2</description>
+	<description>Projeto Spring Boot JPA e H2</description>
 	<properties>
 		<java.version>16</java.version>
 		<maven.compiler.source>16</maven.compiler.source>
