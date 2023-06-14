@@ -12,7 +12,9 @@
 	<artifactId>cliente</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cliente</name>
-	<description>Projeto Spring Boot JPA e H2</description>
+	<description>Projeto Spring Boot JPA e H2
+		link GitHub: https://github.com/JoaoEduardoFM
+	</description>
 	<properties>
 		<java.version>16</java.version>
 		<maven.compiler.source>16</maven.compiler.source>
