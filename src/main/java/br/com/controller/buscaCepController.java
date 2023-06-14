@@ -1,7 +1,5 @@
 package br.com.controller;
 
-import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.dto.BuscaCep;
 import br.com.response.ResponseRest;
-import br.com.response.ResponseRest.messageType;
 import br.com.service.BuscaCepService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -22,7 +19,7 @@ import springfox.documentation.annotations.ApiIgnore;
 @RestController
 @RequestMapping("/buscaCeP")
 @Api( value = "consultar Códigos de Endereçamento Postal", tags = { "BuscaCep" })
-public class buscaCepController {
+public class BuscaCepController {
 	
 	@Autowired
 	BuscaCepService service;
@@ -33,8 +30,8 @@ public class buscaCepController {
       value = "Busca cep.",
       notes = "consultar Códigos de Endereçamento Postal (CEP) do Brasil.")
     @ResponseStatus(HttpStatus.OK)
-    public ResponseEntity<?> listaCliente(String cep, @ApiIgnore ResponseRest response) throws Exception{
-		return ResponseEntity.status(HttpStatus.OK).body(service.getEndereco(cep));
+    public BuscaCep listaCliente(Long cep) throws Exception{
+		return service.getEndereco(cep.toString());
     }
 	
 	public Boolean validaSeExisteCep(String cep) throws Exception {

@@ -1,7 +1,10 @@
-C:\Users\duduc\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\integracaoViaCep\src\main\java\br\com\ClienteApplication.java
-C:\Users\duduc\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\integracaoViaCep\src\main\java\br\com\swagger\SwaggerConfig.java
-C:\Users\duduc\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\integracaoViaCep\src\main\java\br\com\service\BuscaCepService.java
-C:\Users\duduc\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\integracaoViaCep\src\main\java\br\com\response\ResponseRest.java
-C:\Users\duduc\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\integracaoViaCep\src\main\java\br\com\exception\ExceptionHandlerController.java
-C:\Users\duduc\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\integracaoViaCep\src\main\java\br\com\entity\BuscaCep.java
-C:\Users\duduc\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\integracaoViaCep\src\main\java\br\com\repository\BuscaCepRepository.java
+C:\Users\duduc\Documents\GitHub\Consultar-Codigos-de-Enderecamento-Postal-DEMO\src\main\java\br\com\controller\BuscaCepController.java
+C:\Users\duduc\Documents\GitHub\Consultar-Codigos-de-Enderecamento-Postal-DEMO\src\main\java\br\com\service\BuscaCepService.java
+C:\Users\duduc\Documents\GitHub\Consultar-Codigos-de-Enderecamento-Postal-DEMO\src\main\java\br\com\swagger\SwaggerConfig.java
+C:\Users\duduc\Documents\GitHub\Consultar-Codigos-de-Enderecamento-Postal-DEMO\src\main\java\br\com\repository\ClienteRepository.java
+C:\Users\duduc\Documents\GitHub\Consultar-Codigos-de-Enderecamento-Postal-DEMO\src\main\java\br\com\Application.java
+C:\Users\duduc\Documents\GitHub\Consultar-Codigos-de-Enderecamento-Postal-DEMO\src\main\java\br\com\exception\ExceptionHandlerController.java
+C:\Users\duduc\Documents\GitHub\Consultar-Codigos-de-Enderecamento-Postal-DEMO\src\main\java\br\com\controller\ClienteController.java
+C:\Users\duduc\Documents\GitHub\Consultar-Codigos-de-Enderecamento-Postal-DEMO\src\main\java\br\com\dto\Cliente.java
+C:\Users\duduc\Documents\GitHub\Consultar-Codigos-de-Enderecamento-Postal-DEMO\src\main\java\br\com\response\ResponseRest.java
+C:\Users\duduc\Documents\GitHub\Consultar-Codigos-de-Enderecamento-Postal-DEMO\src\main\java\br\com\dto\BuscaCep.java

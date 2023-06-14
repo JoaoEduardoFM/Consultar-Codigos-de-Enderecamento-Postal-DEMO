@@ -26,7 +26,7 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("API Bancaria")
+                .title("API Códigos de Endereçamento Postal (CEP) do Brasil")
                 .description("Acessando o webservice de CEP\r\n"
                 		+ "Para acessar o webservice, um CEP no formato de {8} dígitos deve ser fornecido, por exemplo: \"01001000\".\r\n")
                 .version("1.0.0")
